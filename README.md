@@ -7,7 +7,9 @@ Just Drag and Drop your gif file on the py file
 then select:
 
 1 - To have a bootanimation.zip with a Endless Animation (like your gif)
+
 2 - To have a bootanimation.zip with a one loop animation and it stays at the last frame of your gif
+
 3 - Utility to convert your original gif file to an other size (it keep the original ratio and just add black background)
     Then you can use that resized gif to make again either option 1 or 2 of your choice.
 
