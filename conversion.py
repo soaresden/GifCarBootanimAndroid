@@ -80,7 +80,7 @@ def create_bootanimation_zip(gif_path, animation_choice):
 
         output_zip_path = f"{base_filename}-loop.zip" if animation_choice == "1" else f"{base_filename}-fixed.zip"
         with zipfile.ZipFile(output_zip_path, 'w', zipfile.ZIP_STORED) as bootanimation_zip:
-            desc_txt = f'{width} {height} {frame_rate}\np 1 0 {output_folder}\n'
+            desc_txt = f'{width} {height} {frame_rate}\np 0 0 {output_folder}\n'
             if animation_choice == "2":
                 desc_txt += f'p 0 0 {last_frame_folder}\n'
 
